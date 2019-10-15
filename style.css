@@ -5,20 +5,48 @@
 }
 
 header {
-  background-color: blue;
+  background-color: #0D325A;
   height: 500px;
 }
 
 .contenitore {
   background-color: red;
   height: 100px;
-  width: 80%;
+  width: 90%;
   position: relative;
-  left: 10%;
+  left: 5%;
 }
 
 .header-top {
   background-color: yellow;
   height: 100px;
   width: 65%;
+}
+
+.logo img {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+#menu li {
+  font-size: 15px;
+  color: white;
+  float: right;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+#tutor {
+position: absolute;
+font-size: 15px;
+right: 20%;
+text-transform: uppercase;
+text-decoration: none;
+color: white;
 }
