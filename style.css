@@ -10,7 +10,6 @@ header {
 }
 
 .contenitore {
-  background-color: red;
   height: 100px;
   width: 90%;
   position: relative;
@@ -18,14 +17,13 @@ header {
 }
 
 .header-top {
-  background-color: yellow;
   height: 100px;
   width: 65%;
 }
 
 .logo img {
   margin-left: 5px;
-  vertical-align: middle;
+  top: 20px;
 }
 
 ul {
@@ -39,14 +37,88 @@ ul {
   color: white;
   float: right;
   text-transform: uppercase;
-  margin-right: 20px;
+  margin-right: 40px;
+}
+
+.orange:hover {
+  color: orange;
+  cursor: pointer;
 }
 
 #tutor {
-position: absolute;
-font-size: 15px;
-right: 20%;
-text-transform: uppercase;
-text-decoration: none;
-color: white;
+  position: absolute;
+  font-size: 15px;
+  right: 20%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.pulsanti {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(-0%, -50%);
+}
+
+.login {
+  background-color: #0D325A;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.struttura {
+  background-color: #7BBC00;
+  color: white;
+  border-radius: 5px;
+  border-color: #7BBC00;
+  text-transform: uppercase;
+}
+
+.jumbo {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  left: 5%;
+  top: 30%;
+}
+
+.uomini {
+  float: right;
+}
+.uomini:after {
+  content: '';
+  display: table;
+  clear: both;
+  }
+
+
+.titolo {
+  height: 150px;
+  background-color: lightgrey;
+  text-align: center;
+  font-size: 20px;
+  color: grey;
+  padding: 50px;
+}
+
+.blocco {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: 5%;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+}
+
+.aiuto {
+  position: fixed;
+  bottom: 0;
+  background-color: #7BBC00;
+  color: white;
+  border-radius: 5px;
 }
