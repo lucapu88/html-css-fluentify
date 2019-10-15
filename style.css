@@ -1,0 +1,24 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: blue;
+  height: 500px;
+}
+
+.contenitore {
+  background-color: red;
+  height: 100px;
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+.header-top {
+  background-color: yellow;
+  height: 100px;
+  width: 65%;
+}
