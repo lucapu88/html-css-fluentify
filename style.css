@@ -17,6 +17,7 @@ header {
   height: 100px;
 }
 
+/* contenitore dell'header (blu) e dei 3 blocchi dopo (bianco) */
 .contenitore {
   width: 90%;
   position: relative;
@@ -53,10 +54,6 @@ header {
 ul {
   list-style-type: none;
   text-decoration: none;
-}
-
-#menu {
-  display: inline-block;
 }
 
 .menu li {
@@ -101,23 +98,13 @@ ul {
   padding: 10px;
 }
 
-.jumbo {
+#jumbo {
   color: white;
   font-size: 40px;
   position: absolute;
   left: 5%;
   top: 30%;
 }
-
-.uomini {
-  float: right;
-}
-.uomini:after {
-  content: '';
-  display: table;
-  clear: both;
-  }
-
 
 .titolo {
   height: 150px;
@@ -128,17 +115,26 @@ ul {
   padding: 50px;
 }
 
+h3 {
+  color: black;
+}
+
 .blocco {
   width: 33.33%;
   float: left;
   padding: 20px;
   text-align: center;
+  color: grey;
 }
 
 h2 {
-  color: green;
+  color: #7bbc00;
   margin-top: 50px;
   margin-bottom: 30px;
+}
+
+.contenuto {
+  margin-top: 30px;
 }
 
 .aiuto {
