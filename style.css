@@ -7,37 +7,65 @@
 header {
   background-color: #0D325A;
   height: 500px;
+  background-image: url('https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+#sezione_header {
+  height: 100px;
 }
 
 .contenitore {
-  height: 100px;
   width: 90%;
   position: relative;
   left: 5%;
 }
 
-.header-top {
+.contenitore::after {
+  content: '';
+  clear:both;
+  display: table;
+}
+
+.barra-menu {
+  float: left;
   height: 100px;
   width: 65%;
 }
 
+.logo a {
+  line-height: 100px;
+  display: inline-block;
+}
+
 .logo img {
-  margin-left: 5px;
+  position: relative;
   top: 20px;
+  margin-right: 50px;
+}
+.logo {
+  float: left;
+  height: 100px;
 }
 
 ul {
   list-style-type: none;
   text-decoration: none;
-  text-align: center;
 }
 
-#menu li {
+#menu {
+  display: inline-block;
+}
+
+.menu li {
+  line-height: 100px;
   font-size: 15px;
   color: white;
-  float: right;
+  float: left;
   text-transform: uppercase;
-  margin-right: 40px;
+  margin-left: 10px;
 }
 
 .orange:hover {
@@ -45,20 +73,15 @@ ul {
   cursor: pointer;
 }
 
-#tutor {
-  position: absolute;
-  font-size: 15px;
-  right: 20%;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: white;
+.pulsanti {
+  float: right;
+  width: 35%;
 }
 
-.pulsanti {
-  position: absolute;
-  top: 50%;
-  right: 0%;
-  transform: translate(-0%, -50%);
+#pulsanti {
+  line-height: 100px;
+  float: left;
+  margin-left: 10px;
 }
 
 .login {
@@ -66,6 +89,7 @@ ul {
   color: white;
   border-radius: 5px;
   border-color: white;
+  padding: 5px;
 }
 
 .struttura {
@@ -74,6 +98,7 @@ ul {
   border-radius: 5px;
   border-color: #7BBC00;
   text-transform: uppercase;
+  padding: 10px;
 }
 
 .jumbo {
@@ -104,21 +129,24 @@ ul {
 }
 
 .blocco {
-  width: 300px;
-  height: 300px;
+  width: 33.33%;
   float: left;
-  margin-left: 5%;
+  padding: 20px;
   text-align: center;
 }
 
 h2 {
   color: green;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .aiuto {
   position: fixed;
   bottom: 0;
+  right: 200px;
   background-color: #7BBC00;
   color: white;
   border-radius: 5px;
+  padding: 10px;
 }
